@@ -1,0 +1,22 @@
+PID_STG_Username=asrivastava_pid
+PID_STG_Username_back=asrivastava_pid_back
+PID_STG_Password=June262019
+PID_DEMO_Username=asrivastava_demo_pid
+PID_DEMO_Password=June262019
+Mainframe_User=EO161AS
+Mainframe_Password=india!23
+DB2_Connection_String=jdbc:db2://205.174.35.1:621/TDBQEXPA:user=${Mainframe_User};password=${Mainframe_Password};
+TestRail_Username=experian\C59833A
+TestRail_Password=vicky*0007
+IEN_AWS_Connection_String=jdbc:mysql://pidcm.cdvx9u9cm0he.us-east-1.rds.amazonaws.com:3306/pidcm?user=fcr001&password=Experian1
+IEN_Cache_Refresh_IP_1=10.9.228.95
+IEN_Cache_Refresh_IP_2=10.9.228.125
+PID_PROD_Username=schuang_pid
+PID_PROD_Password=Scprod0519
+CurYear=${=new Date().format("yyyy")}
+CurMonth=${=new Date().format("MM")}
+180DaysAgo=${=(new Date()-180).format("yyyyMMddHHmm")}
+StartTimestamp=${=(new Date()-1).format("yyyyMMddHHmm")}
+EndTimestamp=${=(new Date()+1).format("yyyyMMddHHmm")}
+BeforeStart=${=(new Date()-2).format("yyyyMMddHHmm")}
+AfterEnd=${=(new Date()+2).format("yyyyMMddHHmm")}

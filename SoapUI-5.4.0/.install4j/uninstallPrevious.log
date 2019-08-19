@@ -1,0 +1,211 @@
+[INFO] logger started at Tue Jul 16 05:57:30 CDT 2019
+[INFO] executable name: D:\software\dev\SoapUI-5.4.0\uninstall.exe
+[INFO] install4j version: 5.1.14 (build 5727)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=D:\software\dev\SoapUI-5.4.0\uninstal...
+exe4j.processCommFile=C:\Users\c59833a\AppData\Local\Temp\3...
+sun.boot.library.path=d:\software\dev\soapui-5.4.0\jre\bin
+exe4j.semaphoreName=Local\d:_software_dev_soapui-5.4.0_un...
+java.vm.version=25.152-b16
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=;
+exe4j.consoleCodepage=cp0
+java.vm.name=Java HotSpot(TM) Client VM
+file.encoding.pkg=sun.io
+user.script=
+user.country=US
+sun.os.patch.level=
+install4j.exeDir=D:\software\dev\SoapUI-5.4.0\
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=D:\software\dev
+java.runtime.version=1.8.0_152-b16
+java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+java.endorsed.dirs=d:\software\dev\soapui-5.4.0\jre\lib\...
+os.arch=x86
+java.io.tmpdir=C:\Users\c59833a\AppData\Local\Temp\3\
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+user.variant=
+exe4j.tempDir=
+os.name=Windows Server 2016
+sun.jnu.encoding=Cp1252
+java.library.path=D:\software\dev\SoapUI-5.4.0\.\.insta...
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot Client Compiler
+exe4j.isInstall4j=true
+os.version=10.0
+user.home=C:\Users\c59833a
+user.timezone=America/Chicago
+java.awt.printerjob=sun.awt.windows.WPrinterJob
+java.specification.version=1.8
+file.encoding=Cp1252
+user.name=c59833a
+java.class.path=D:\software\dev\SoapUI-5.4.0\.install...
+install4j.dontUninstallServices=false
+windel.logfile=C:\Users\c59833a\AppData\Local\Temp\3...
+java.vm.specification.version=1.8
+sun.arch.data.model=32
+java.home=d:\software\dev\soapui-5.4.0\jre
+sun.java.command=D:\software\dev\SoapUI-5.4.0\uninstal...
+install4j.upgradeUninstall=true
+exe4j.launchName=D:\software\dev\SOAPUI~1.0\UNINST~1.EXE
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.windows.WToolkit
+java.vm.info=mixed mode
+exe4j.unextractedPosition=0
+java.version=1.8.0_152
+java.ext.dirs=d:\software\dev\soapui-5.4.0\jre\lib\...
+sun.boot.class.path=d:\software\dev\soapui-5.4.0\jre\lib\...
+java.vendor=Oracle Corporation
+install4j.appDir=D:\software\dev\SoapUI-5.4.0\
+file.separator=\
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+install4j.alternativeLogfile=C:\Users\c59833a\AppData\Local\Temp\3...
+sun.desktop=windows
+sun.cpu.isalist=pentium_pro+mmx pentium_pro pentium+m...
+[INFO] com.install4j.runtime.beans.actions.misc.LoadResponseFileAction [ID 18]: Execute action
+       Property file: null
+       Property excludedVariables: null
+       Property overwrite: true
+       Property rollbackSupported: true
+       Variable changed: sys.programGroupName=SmartBear\SoapUI 5.4.0[class java.lang.String]
+       Variable changed: sys.languageId=en[class java.lang.String]
+       Variable changed: sys.programGroupDisabled=false[class java.lang.Boolean]
+       Variable changed: sys.component.714=false[class java.lang.Boolean]
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+       Variable changed: showFileAction=true[class java.lang.Boolean]
+       Variable changed: sys.component.2393=true[class java.lang.Boolean]
+       Variable changed: tutorialsLocation=D:\software\dev\SoapUITutorials\SoapUI-Tutorials[class java.lang.String]
+       Variable changed: sys.component.132=true[class java.lang.Boolean]
+       Variable changed: sys.component.1263=true[class java.lang.Boolean]
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Variable changed: executeLauncherAction=true[class java.lang.Boolean]
+       Variable changed: sys.programGroupAllUsers=true[class java.lang.Boolean]
+       Variable changed: sys.installationDir=D:\software\dev\SoapUI-5.4.0[class java.lang.String]
+       Execute action successful after 32 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RequireInstallerPrivilegesAction [ID 4628]: Execute action
+       Property failIfNotObtained: true
+       Property rollbackSupported: false
+       Variable changed: sys.adminRights=true[class java.lang.Boolean]
+       Execute action successful after 5888 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 12]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 13]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallWelcomeScreen [ID 13]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 14]: Show screen
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2173]: Using communication backend com.install4j.runtime.installer.platform.win32.Win32CommunicationBackend
+       Execute action
+       Property script: I4jScript_Internal_32
+       Property variableName: FILE_SEPARATOR
+       Property rollbackSupported: false
+       Property failIfNull: false
+       Property responseFileVariable: false
+       Property onlyIfUndefined: false
+       Variable changed: FILE_SEPARATOR=\[class java.lang.String]
+       Execute action successful after 391 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 2645]: Execute action
+       Property script: I4jScript_Internal_33
+       Property variableName: jxBrowserInstallLocation
+       Property rollbackSupported: false
+       Property failIfNull: false
+       Property responseFileVariable: false
+       Property onlyIfUndefined: false
+       Variable changed: jxBrowserInstallLocation=${installer:sys.installationDir}\.JxBrowser[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 2615]: Execute action
+       Property rollbackSupported: false
+       Property backupForRollback: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property recursive: true
+       Property files: [D:\software\dev\SoapUI-5.4.0\.JxBrowser]
+       Property fileFilter: null
+       Property directoryFilter: null
+       Execute action successful after 187 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5210]: Execute action
+       Property script: I4jScript_Internal_34
+       Property variableName: EXTENSION
+       Property rollbackSupported: false
+       Property failIfNull: false
+       Property responseFileVariable: false
+       Property onlyIfUndefined: false
+       Variable changed: EXTENSION=bat[class java.lang.String]
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetVariableAction [ID 5141]: Execute action
+       Property script: I4jScript_Internal_35
+       Property variableName: rootInstallDirPI
+       Property rollbackSupported: false
+       Property failIfNull: false
+       Property responseFileVariable: false
+       Property onlyIfUndefined: false
+       Variable changed: rootInstallDirPI=D:\software\dev\SoapUI-5.4.0[class java.lang.String]
+       Execute action successful after 16 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RunExecutableAction [ID 5060]: Execute action
+       Property arguments: [logging of arguments is disabled]
+       Property rollbackWorkingDirectory: null
+       Property wait: false
+       Property rollbackSupported: false
+       Property includeParentEnvironmentVariables: true
+       Property useRollbackExecutable: false
+       Property showWindowsConsole: false
+       Property environmentVariables: {}
+       Property returnCodeVariable: 
+       Property rollbackArguments: null
+       Property rollbackExecutable: null
+       Property workingDirectory: D:\software\dev\SoapUI-5.4.0\bin
+       Property failOnStdoutFileError: false
+       Property stderrRedirectionMode: No redirection
+       Property keepConsoleWindow: true
+       Property stdoutRedirectionMode: No redirection
+       Property failOnStdinFileError: false
+       Property stdinRedirectionMode: No redirection
+       Property stdoutVariableName: 
+       Property stderrVariableName: 
+       Property failOnStderrFileError: false
+       Property stdinString: 
+       Property executable: D:\software\dev\SoapUI-5.4.0\bin\uninstallactiontrack.bat
+       Property waitForStreams: true
+       Property timeout: 0
+       Property stdinFile: null
+       Property stdoutFile: null
+       Property stderrFile: null
+       Property logArguments: false
+       used working dir: D:\software\dev\SoapUI-5.4.0\bin
+       Execute action successful after 781 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 2201]: Execute action
+       Property rollbackSupported: false
+       Property backupForRollback: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property recursive: true
+       Property files: [D:\software\dev\SoapUI-5.4.0\bin]
+       Property fileFilter: null
+       Property directoryFilter: null
+[ERROR] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 2201]: Execute action not successful after 174 ms
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction [ID 2148]: Execute action
+       Property rollbackSupported: false
+       Property backupForRollback: false
+       Property showFileNames: true
+       Property showProgress: false
+       Property recursive: true
+       Property files: [D:\software\dev\SoapUI-5.4.0\hermesJMS]
+       Property fileFilter: null
+       Property directoryFilter: null
+       Execute action successful after 655 ms
+[INFO] com.install4j.runtime.beans.actions.UninstallFilesAction [ID 15]: Execute action
+       executing auto uninstall
+       postponing deletion of D:\software\dev\SoapUI-5.4.0\.install4j\i4jruntime.jar
+       postponing deletion of D:\software\dev\SoapUI-5.4.0\.install4j\user.jar
+       Execute action successful after 5181 ms
+[INFO] com.install4j.runtime.beans.screens.UninstallationScreen [ID 14]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 16]: Show screen
+[INFO] com.install4j.runtime.beans.screens.UninstallSuccessScreen [ID 16]: command: finish
+       cleaning up
+       Finished

@@ -1,0 +1,15 @@
+# install4j response file for SoapUI 5.5.0
+createDesktopLinkAction$Boolean=true
+executeLauncherAction$Boolean=true
+showFileAction$Boolean=false
+sys.adminRights$Boolean=true
+sys.component.1263$Boolean=true
+sys.component.132$Boolean=true
+sys.component.2393$Boolean=true
+sys.component.714$Boolean=false
+sys.installationDir=D\:\\software\\dev\\SoapUI-5.4.0
+sys.languageId=en
+sys.programGroupAllUsers$Boolean=true
+sys.programGroupDisabled$Boolean=false
+sys.programGroupName=SmartBear\\SoapUI 5.4.0
+tutorialsLocation=D\:\\software\\dev\\SoapUITutorials\\SoapUI-Tutorials\\SoapUI-Tutorials

@@ -1,0 +1,345 @@
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+   <CompletionCode>0000</CompletionCode>
+   <ReferenceId/>
+   <Products>
+      <PreciseIDServer>
+         <XMLVersion>5</XMLVersion>
+         <SessionID>CPETZOQNEHAFA8NMOMUYXBVN.preciseId1-19081304485919688629</SessionID>
+         <Header>
+            <ReportDate>08132019</ReportDate>
+            <ReportTime>044900</ReportTime>
+            <Preamble>TCA1</Preamble>
+            <ReferenceNumber/>
+         </Header>
+         <Messages/>
+         <Summary>
+            <ReviewReferenceID>10619600</ReviewReferenceID>
+            <PreciseIDType>03</PreciseIDType>
+            <PreciseIDScore>749</PreciseIDScore>
+            <PreciseIDScorecard>ID SCREENING V2</PreciseIDScorecard>
+            <ValidationScore>000623</ValidationScore>
+            <ValidationScorecard>ID SCREENING VAL V2</ValidationScorecard>
+            <VerificationScore>000732</VerificationScore>
+            <VerificationScorecard>ID SCREENING VER V2</VerificationScorecard>
+            <ComplianceIndicator/>
+            <ComplianceDescription>No Compliance Code</ComplianceDescription>
+            <FPDScore>000000</FPDScore>
+            <FPDScorecard/>
+            <UtilityFunction>00007030</UtilityFunction>
+            <InitialResults>
+               <AuthenticationIndex>0055</AuthenticationIndex>
+               <MostLikelyFraudType code="   ">No Classification</MostLikelyFraudType>
+               <Reasons>
+                  <Reason1 code="    ">Not Supplied</Reason1>
+                  <Reason2 code="    ">Not Supplied</Reason2>
+                  <Reason3 code="    ">Not Supplied</Reason3>
+                  <Reason4 code="    ">Not Supplied</Reason4>
+                  <Reason5 code=""/>
+               </Reasons>
+               <InitialDecision>ACC</InitialDecision>
+               <FinalDecision>ACC</FinalDecision>
+               <ActionPath>000</ActionPath>
+            </InitialResults>
+            <Call2Results>
+               <AuthenticationIndex>0000</AuthenticationIndex>
+               <MostLikelyFraudType/>
+               <Reasons>
+                  <Reason1 code="    ">Not Supplied</Reason1>
+                  <Reason2 code="    ">Not Supplied</Reason2>
+                  <Reason3 code="    ">Not Supplied</Reason3>
+                  <Reason4 code="    ">Not Supplied</Reason4>
+               </Reasons>
+               <InitialDecision/>
+               <FinalDecision/>
+               <ActionPath/>
+            </Call2Results>
+         </Summary>
+         <GLBDetail>
+            <CheckpointSummary>
+               <PrimaryResultCode code="00">Data found for search request</PrimaryResultCode>
+               <BestPickAcceptDeny code="A">Accept</BestPickAcceptDeny>
+               <AddrCode>A1</AddrCode>
+               <PhnCode>MX</PhnCode>
+               <AddrTypeCode>S</AddrTypeCode>
+               <COACode>N</COACode>
+               <SSNCode>NX</SSNCode>
+               <AddrUnitMismatchCode/>
+               <PhnUnitMismatchCode/>
+               <DLResultCode>YA</DLResultCode>
+               <DateOfBirthMatch>9</DateOfBirthMatch>
+               <HighRiskAddrCode>N</HighRiskAddrCode>
+               <HighRiskPhoneCode>N</HighRiskPhoneCode>
+               <OFACValidationResult>1</OFACValidationResult>
+               <AddrResMatches>0002</AddrResMatches>
+               <AddrBusMatches>0000</AddrBusMatches>
+               <PhnResMatches>0000</PhnResMatches>
+               <PhnBusMatches>0000</PhnBusMatches>
+            </CheckpointSummary>
+            <FraudShield>
+               <FS01>N</FS01>
+               <FS02>N</FS02>
+               <FS03>N</FS03>
+               <FS04>N</FS04>
+               <FS05>N</FS05>
+               <FS06>N</FS06>
+               <FS10>N</FS10>
+               <FS11>N</FS11>
+               <FS13>N</FS13>
+               <FS14>N</FS14>
+               <FS15>N</FS15>
+               <FS16>N</FS16>
+               <FS17>N</FS17>
+               <FS18>N</FS18>
+               <FS21>N</FS21>
+               <FS25>N</FS25>
+               <FS26>N</FS26>
+            </FraudShield>
+            <SharedApplication>
+               <GLBRule1 code="3404">Additional Addresses (3 - 4)</GLBRule1>
+               <GLBRule2 code="    "/>
+               <GLBRule3 code="    "/>
+               <GLBRule4 code="    "/>
+               <GLBRule5 code="    "/>
+               <GLBRule6 code="    "/>
+               <GLBRule7 code="    "/>
+               <GLBRule8 code="    "/>
+               <GLBRule9 code="    "/>
+               <GLBRule10 code="    "/>
+               <GLBRule11 code="    "/>
+               <GLBRule12 code="    "/>
+               <GLBRule13 code="    "/>
+               <GLBRule14 code="    "/>
+               <GLBRule15 code="    "/>
+               <GLBRule16 code="    "/>
+               <GLBRule17 code="    "/>
+               <GLBRule18 code="    "/>
+               <GLBRule19 code="    "/>
+               <GLBRule20 code="    "/>
+            </SharedApplication>
+         </GLBDetail>
+         <Checkpoint>
+            <GeneralResults>
+               <ProfileID>MMAS006</ProfileID>
+               <AccountInformation>10619600</AccountInformation>
+               <Version>04</Version>
+               <PrimaryResult code="00">Data found for search request</PrimaryResult>
+               <BestPickAcceptDeny code="A">Accept</BestPickAcceptDeny>
+               <SourceFlag/>
+               <CheckpointTemplate>STDADD</CheckpointTemplate>
+               <NameFlipIndicator code=" ">Default</NameFlipIndicator>
+               <AddressVerificationResult code="A1">Exact match on first and last name;Exact match on address</AddressVerificationResult>
+               <AddressUnitMismatchResult code="  "/>
+               <PhoneVerificationResult code="MX">Phone Number not Supplied</PhoneVerificationResult>
+               <PhoneUnitMismatchResult code="  "/>
+               <AddressTypeResult code="S ">Single family dwelling</AddressTypeResult>
+               <AddressVerificationResidentialMatches>0002</AddressVerificationResidentialMatches>
+               <AddressVerificationBusinessMatches>0000</AddressVerificationBusinessMatches>
+               <PhoneVerificationResidentialMatches>0000</PhoneVerificationResidentialMatches>
+               <PhoneVerificationBusinessMatches>0000</PhoneVerificationBusinessMatches>
+               <AddressHighRiskResult code="N ">No address high risk information found</AddressHighRiskResult>
+               <PhoneHighRiskResult code="N ">No phone high risk information found</PhoneHighRiskResult>
+               <COAResult code="N ">No change of address information found</COAResult>
+               <SSNResult code="NX">No Match</SSNResult>
+               <EDABestPickScore/>
+               <EDARecordsReturned/>
+               <AcceptDeclineFlag code=" "/>
+               <EDAResult code="NA"/>
+               <CheckpointScore>756</CheckpointScore>
+               <Result code="R">Residential</Result>
+               <AuditNumber>CP-CQBY-HH289FU3</AuditNumber>
+               <ShortAuditNumber>5HH289F</ShortAuditNumber>
+               <DriverLicenseResult code="YA">Match to full name and address</DriverLicenseResult>
+               <MonthOfBirth>03</MonthOfBirth>
+               <DayOfBirth>27</DayOfBirth>
+               <YearOfBirth>1938</YearOfBirth>
+               <DateOfBirthMatch code="9">Day of Birth and Month of Birth exact match, Year of Birth exact match (no plus or minus one year logic accommodation)</DateOfBirthMatch>
+               <OFACResult code="1 ">No match</OFACResult>
+               <StandardizedAddresRecordsReturned>01</StandardizedAddresRecordsReturned>
+               <ResidentialAddressDetailRecordsReturned>01</ResidentialAddressDetailRecordsReturned>
+               <BusinessAddressDetailRecordsReturned>00</BusinessAddressDetailRecordsReturned>
+               <AddressHighRiskDetailRecordsReturned>00</AddressHighRiskDetailRecordsReturned>
+               <AddressHighRiskDescriptionRecordsReturned>01</AddressHighRiskDescriptionRecordsReturned>
+               <ResidentialPhoneDetailRecordsReturned>00</ResidentialPhoneDetailRecordsReturned>
+               <BusinessPhoneDetailRecordsReturned>00</BusinessPhoneDetailRecordsReturned>
+               <PhoneHighRiskDetailRecordsReturned>00</PhoneHighRiskDetailRecordsReturned>
+               <PhoneHighRiskDescriptionRecordsReturned>01</PhoneHighRiskDescriptionRecordsReturned>
+               <SSNAddressDetailRecordsReturned>00</SSNAddressDetailRecordsReturned>
+               <ValidationSegmentsReturned>01</ValidationSegmentsReturned>
+               <DriverLicenseSegmentsReturned>00</DriverLicenseSegmentsReturned>
+               <OFACRecordSegmentsReturned>00</OFACRecordSegmentsReturned>
+               <AuditRequestInformationRecordsReturned>00</AuditRequestInformationRecordsReturned>
+               <COARecordsReturned>00</COARecordsReturned>
+               <COADescriptionRecordsReturned>00</COADescriptionRecordsReturned>
+               <PreviousAddressesReturned>01</PreviousAddressesReturned>
+               <SSNFinderAddressesReturned>00</SSNFinderAddressesReturned>
+            </GeneralResults>
+            <StandardizedAddressDetail>
+               <Surname>HATZELL</Surname>
+               <FirstName>MAUREEN</FirstName>
+               <Initial>A</Initial>
+               <Address>13402 LYNNVILLE DR</Address>
+               <City>HOUSTON</City>
+               <State>TX</State>
+               <ZipCode>77065</ZipCode>
+               <ZipPlus4>3118</ZipPlus4>
+            </StandardizedAddressDetail>
+            <ResidentialAddressDetail>
+               <Surname>HATZELL</Surname>
+               <FirstName>MAUREEN</FirstName>
+               <Initial>A</Initial>
+               <Address>13402 LYNNVILLE DR</Address>
+               <City>HOUSTIN</City>
+               <State>TX</State>
+               <ZipCode>77065</ZipCode>
+               <ZipPlus4>3118</ZipPlus4>
+               <AreaCode/>
+               <Phone/>
+               <SpouseName/>
+               <OtherHouseholdMemberName1/>
+               <OtherHouseholdMemberName2>ANTHONY D</OtherHouseholdMemberName2>
+               <OtherHouseholdMemberName3>CHANTEL B</OtherHouseholdMemberName3>
+               <LastUpdatedDate>19960530</LastUpdatedDate>
+               <MonthsAtResidence>0031</MonthsAtResidence>
+            </ResidentialAddressDetail>
+            <AddressHighRiskDetail>
+               <BusinessName/>
+               <Address/>
+               <City/>
+               <State/>
+               <ZipCode/>
+               <ZipPlus4/>
+               <AreaCode/>
+               <Phone/>
+            </AddressHighRiskDetail>
+            <AddressHighRiskDescription>
+               <HighRiskDescription>No high risk business at address/phone</HighRiskDescription>
+            </AddressHighRiskDescription>
+            <ResidentialPhoneDetail>
+               <Surname/>
+               <FirstName/>
+               <Initial/>
+               <Address/>
+               <City/>
+               <State/>
+               <ZipCode/>
+               <ZipPlus4/>
+               <AreaCode/>
+               <Phone/>
+               <SpouseName/>
+               <OtherHouseholdMemberName1/>
+               <OtherHouseholdMemberName2/>
+               <OtherHouseholdMemberName3/>
+               <LastTouched/>
+               <MonthsAtResidence/>
+            </ResidentialPhoneDetail>
+            <PhoneHighRiskDetail>
+               <BusinessName/>
+               <Address/>
+               <City/>
+               <State/>
+               <ZipCode/>
+               <ZipPlus4/>
+               <AreaCode/>
+               <Phone/>
+            </PhoneHighRiskDetail>
+            <PhoneHighRiskDescription>
+               <HighRiskDescription>No high risk business at address/phone</HighRiskDescription>
+            </PhoneHighRiskDescription>
+            <ChangeOfAddressDetail>
+               <Name/>
+               <Address/>
+               <City/>
+               <State/>
+               <ZipCode/>
+               <ZipPlus4/>
+               <ReportedDate/>
+               <LastTouched/>
+            </ChangeOfAddressDetail>
+            <ValidationSegment>
+               <Surname>HATZELL</Surname>
+               <FirstName>MAUREEN</FirstName>
+               <MiddleInitial>A</MiddleInitial>
+               <SSN>666-38-1487</SSN>
+               <SSNIssueState>AL</SSNIssueState>
+               <SSNDeceased code="N">No</SSNDeceased>
+               <SSNFormat code="V">Valid</SSNFormat>
+               <SSNIssueStartRange>1964</SSNIssueStartRange>
+               <SSNIssueEndRange>1966</SSNIssueEndRange>
+               <SSNIssueResultCode code="I">SSN issued</SSNIssueResultCode>
+               <DriversLicenseFormatValidation code="V">Valid format</DriversLicenseFormatValidation>
+               <OFACValidationResult code="1 ">No match</OFACValidationResult>
+            </ValidationSegment>
+            <OFACRecordSegment>
+               <OFACRecord/>
+            </OFACRecordSegment>
+            <PreviousAddressSegment>
+               <Address>127 WESLEY DR</Address>
+               <City>LEAGUE CITY</City>
+               <State>TX</State>
+               <ZipCode>77573</ZipCode>
+               <ZipPlus4>3633</ZipPlus4>
+               <ReportedDate>20030615</ReportedDate>
+               <LastUpdatedDate>20030927</LastUpdatedDate>
+            </PreviousAddressSegment>
+         </Checkpoint>
+         <CCNumerics/>
+         <CCStrings>
+            <CCString5>X;;;</CCString5>
+         </CCStrings>
+         <KBA>
+            <XMLVersion>5</XMLVersion>
+            <General>
+               <SessionID>CPETZOQNEHAFA8NMOMUYXBVN.preciseId1-19081304485919688629</SessionID>
+               <KBAResultCode>00</KBAResultCode>
+               <KBAResultCodeDescription>KBA processing successful questions returned</KBAResultCodeDescription>
+               <NumberOfQuestions>2</NumberOfQuestions>
+            </General>
+            <QuestionSet>
+               <QuestionType>521</QuestionType>
+               <QuestionText>Please select the name of the branch where you opened your Banco Popular Saving account ending in 7874:</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>ISLA VERDE</QuestionChoice>
+                  <QuestionChoice>CIDRA MALL</QuestionChoice>
+                  <QuestionChoice>MAYAGUEZ MALL SUR</QuestionChoice>
+                  <QuestionChoice>BAYAMON CENTER</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>523</QuestionType>
+               <QuestionText>From the following options, please choose an occupation that you may have:</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>LAWYERS/JUDGES</QuestionChoice>
+                  <QuestionChoice>PUBLIC SERVICE EMPLOYEE</QuestionChoice>
+                  <QuestionChoice>PROGRAMMER/ANALYST</QuestionChoice>
+                  <QuestionChoice>OWN BUSINESS</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+         </KBA>
+      </PreciseIDServer>
+      <CustomerManagement>
+         <Version>1.00</Version>
+         <ReportDate>08132019</ReportDate>
+         <ReportTime>044859</ReportTime>
+         <TransactionID>PIDCM0471601865771659648137165966335</TransactionID>
+         <ClientTrackingID>10619600</ClientTrackingID>
+         <PrimaryResponseCode>0000</PrimaryResponseCode>
+         <SecondaryResponseCode>0000</SecondaryResponseCode>
+         <ScoreResults>
+            <Score>0</Score>
+            <ScoreFactors/>
+         </ScoreResults>
+         <Attributes>
+            <Attributes01Day>0;0;0;0;0;0;0;0;0;0;0;0;</Attributes01Day>
+            <Attributes03Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes03Day>
+            <Attributes07Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes07Day>
+            <Attributes21Day>0;0;0;</Attributes21Day>
+            <Attributes28Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes28Day>
+            <Attributes90Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;1;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes90Day>
+         </Attributes>
+         <CCNumerics/>
+         <CCStrings/>
+      </CustomerManagement>
+   </Products>
+</NetConnectResponse>

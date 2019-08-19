@@ -1,0 +1,11 @@
+ERROR LIST STARTS 
+
+
+
+
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <ReferenceText> Comparison Between STG and Demo Responses - - - - -[XPathContains assertion failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:ReferenceText[1]/text()] : Exception:Missing content for xpath [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:ReferenceText[1]/text()] in Response]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+ERROR LIST ENDS

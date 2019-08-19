@@ -1,0 +1,41 @@
+ERROR LIST STARTS 
+
+
+
+
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Version> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:Version[1]/text()], expecting [], actual was [1.00]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <PrimaryResponseCode> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:PrimaryResponseCode[1]/text()], expecting [], actual was [0000]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <SecondaryResponseCode> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:SecondaryResponseCode[1]/text()], expecting [], actual was [0000]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <ReferenceText> Comparison Between STG and Demo Responses - - - - -[XPathContains assertion failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:ReferenceText[1]/text()] : Exception:Missing content for xpath [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+//ns1:CustomerManagement[1]/ns1:ReferenceText[1]/text()] in Response]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes01Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes01Day[1]/text(),"")], expecting [], actual was [0;0;0;0;0;0;0;0;0;0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes03Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes03Day[1]/text(),"")], expecting [], actual was [0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes07Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes07Day[1]/text(),"")], expecting [], actual was [0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes21Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes21Day[1]/text(),"")], expecting [], actual was [0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes28Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes28Day[1]/text(),"")], expecting [], actual was [0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <Attributes><Attributes90Day> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:Attributes[1]/ns1:Attributes90Day[1]/text(),"")], expecting [], actual was [0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;1;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+- - - DEMO FIRST INQUIRY ERROR START - - - -XPath Match - <ScoreResults><Score> Comparison Between STG and Demo Responses - - - - -[XPathContains comparison failed for path [declare namespace ns1='http://www.experian.com/NetConnectResponse';
+concat(//ns1:CustomerManagement[1]/ns1:ScoreResults[1]/ns1:Score[1]/text(),"")], expecting [], actual was [0]]- - - DEMO FIRST INQUIRY ERROR END - - - - 
+
+ERROR LIST ENDS

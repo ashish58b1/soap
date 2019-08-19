@@ -1,0 +1,183 @@
+<NetConnectResponse xmlns="http://www.experian.com/NetConnectResponse">
+   <CompletionCode>0000</CompletionCode>
+   <ReferenceId/>
+   <Products>
+      <PreciseIDServer>
+         <XMLVersion>5</XMLVersion>
+         <SessionID>OEL8NFWGD6VQPKXJSQ4L7947.pidd2v-190813051825576699520</SessionID>
+         <Header>
+            <ReportDate>08132019</ReportDate>
+            <ReportTime>051821</ReportTime>
+            <Preamble>TCA1</Preamble>
+            <ReferenceNumber/>
+         </Header>
+         <Messages/>
+         <Summary>
+            <ReviewReferenceID>66912617</ReviewReferenceID>
+            <PreciseIDType>03</PreciseIDType>
+            <PreciseIDScore>749</PreciseIDScore>
+            <PreciseIDScorecard>ID SCREENING V2</PreciseIDScorecard>
+            <ValidationScore>000623</ValidationScore>
+            <ValidationScorecard>ID SCREENING VAL V2</ValidationScorecard>
+            <VerificationScore>000732</VerificationScore>
+            <VerificationScorecard>ID SCREENING VER V2</VerificationScorecard>
+            <ComplianceIndicator/>
+            <ComplianceDescription>No Compliance Code</ComplianceDescription>
+            <FPDScore>000000</FPDScore>
+            <FPDScorecard/>
+            <UtilityFunction>00007030</UtilityFunction>
+            <InitialResults>
+               <AuthenticationIndex>0055</AuthenticationIndex>
+               <MostLikelyFraudType code="   ">No Classification</MostLikelyFraudType>
+               <Reasons>
+                  <Reason1 code="    ">Not Supplied</Reason1>
+                  <Reason2 code="    ">Not Supplied</Reason2>
+                  <Reason3 code="    ">Not Supplied</Reason3>
+                  <Reason4 code="    ">Not Supplied</Reason4>
+                  <Reason5 code=""/>
+               </Reasons>
+               <InitialDecision>ACC</InitialDecision>
+               <FinalDecision>ACC</FinalDecision>
+               <ActionPath>000</ActionPath>
+            </InitialResults>
+            <Call2Results>
+               <AuthenticationIndex>0000</AuthenticationIndex>
+               <MostLikelyFraudType/>
+               <Reasons>
+                  <Reason1 code="    ">Not Supplied</Reason1>
+                  <Reason2 code="    ">Not Supplied</Reason2>
+                  <Reason3 code="    ">Not Supplied</Reason3>
+                  <Reason4 code="    ">Not Supplied</Reason4>
+               </Reasons>
+               <InitialDecision/>
+               <FinalDecision/>
+               <ActionPath/>
+            </Call2Results>
+         </Summary>
+         <CCNumerics/>
+         <CCStrings>
+            <CCString5>X;;;</CCString5>
+         </CCStrings>
+         <KBA>
+            <XMLVersion>5</XMLVersion>
+            <General>
+               <SessionID>OEL8NFWGD6VQPKXJSQ4L7947.pidd2v-190813051825576699520</SessionID>
+               <KBAResultCode>00</KBAResultCode>
+               <KBAResultCodeDescription>KBA processing successful questions returned</KBAResultCodeDescription>
+               <NumberOfQuestions>8</NumberOfQuestions>
+            </General>
+            <QuestionSet>
+               <QuestionType>7</QuestionType>
+               <QuestionText>You currently or previously resided on one of the following streets. Please select the street name from the following choices.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>POPLAR</QuestionChoice>
+                  <QuestionChoice>WESLEY</QuestionChoice>
+                  <QuestionChoice>NORTHWEST</QuestionChoice>
+                  <QuestionChoice>EL CAMINO</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>8</QuestionType>
+               <QuestionText>Please select the city that you have previously resided in.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>MILLRY</QuestionChoice>
+                  <QuestionChoice>MIDFIELD</QuestionChoice>
+                  <QuestionChoice>LEAGUE CITY</QuestionChoice>
+                  <QuestionChoice>BUTLER</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>13</QuestionType>
+               <QuestionText>Please select the county for the address you provided.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>HARRIS</QuestionChoice>
+                  <QuestionChoice>WICHITA</QuestionChoice>
+                  <QuestionChoice>POTTER</QuestionChoice>
+                  <QuestionChoice>ELLIS</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>20</QuestionType>
+               <QuestionText>Which of the following people live or previously lived with you at the address you provided?</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>CHANTEL B</QuestionChoice>
+                  <QuestionChoice>PORTIA</QuestionChoice>
+                  <QuestionChoice>PATRICIA</QuestionChoice>
+                  <QuestionChoice>NANCY</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>27</QuestionType>
+               <QuestionText>According to our records, you currently own/lease, or have owned/leased within the past year, one of the following vehicles. Please select the vehicle that you purchased or leased prior to March 2013  from the following choices.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>MITSUBISHI WAGON VAN</QuestionChoice>
+                  <QuestionChoice>CHEVROLET G-SERIES VAN</QuestionChoice>
+                  <QuestionChoice>TOYOTA CARGO VAN</QuestionChoice>
+                  <QuestionChoice>GMC VANDURA VAN</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>28</QuestionType>
+               <QuestionText>Please select the model year of the vehicle you purchased or leased prior to March 2013 .</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>1996</QuestionChoice>
+                  <QuestionChoice>1997</QuestionChoice>
+                  <QuestionChoice>1998</QuestionChoice>
+                  <QuestionChoice>1999</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>29</QuestionType>
+               <QuestionText>What was the original color of the vehicle that you purchased or leased in or around March 2013 ? If there is not a matched color, please select 'NONE OF THE ABOVE'.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>SILVER/GREY</QuestionChoice>
+                  <QuestionChoice>RED/ROSE/PINK</QuestionChoice>
+                  <QuestionChoice>GOLD/COPPER/BRONZE</QuestionChoice>
+                  <QuestionChoice>PURPLE/MAROON/LAVENDER/BURGUNDY/PLUM/MAUVE/AMETHYST</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+            <QuestionSet>
+               <QuestionType>30</QuestionType>
+               <QuestionText>Which of the following is a license plate number that is associated with an automobile registered in your name? If there is not a matched license plate, please select 'NONE OF THE ABOVE'.</QuestionText>
+               <QuestionSelect>
+                  <QuestionChoice>F3ABC4567</QuestionChoice>
+                  <QuestionChoice>C86LEK</QuestionChoice>
+                  <QuestionChoice>SG0F71</QuestionChoice>
+                  <QuestionChoice>RAMMIE</QuestionChoice>
+                  <QuestionChoice>NONE OF THE ABOVE/DOES NOT APPLY</QuestionChoice>
+               </QuestionSelect>
+            </QuestionSet>
+         </KBA>
+      </PreciseIDServer>
+      <CustomerManagement>
+         <Version>1.00</Version>
+         <ReportDate>08132019</ReportDate>
+         <ReportTime>051825</ReportTime>
+         <TransactionID>PIDCM0741656925621865152062186517105</TransactionID>
+         <ClientTrackingID>66912617</ClientTrackingID>
+         <PrimaryResponseCode>0000</PrimaryResponseCode>
+         <SecondaryResponseCode>0000</SecondaryResponseCode>
+         <ScoreResults>
+            <Score>0</Score>
+            <ScoreFactors/>
+         </ScoreResults>
+         <Attributes>
+            <Attributes01Day>0;0;0;0;0;0;0;0;0;0;0;0;</Attributes01Day>
+            <Attributes03Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes03Day>
+            <Attributes07Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes07Day>
+            <Attributes21Day>0;0;0;</Attributes21Day>
+            <Attributes28Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;4;0;0;0;0;1;1;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes28Day>
+            <Attributes90Day>0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;6;0;0;0;0;1;1;2;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;</Attributes90Day>
+         </Attributes>
+         <CCNumerics/>
+         <CCStrings/>
+      </CustomerManagement>
+   </Products>
+</NetConnectResponse>
